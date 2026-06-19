@@ -45,7 +45,7 @@ Frontend application running:
 
 The frontend access configuration was also verified through the terminal:
 
-![Frontend URL Verification](./screenshots/frontend-url-terminal-proof.png.png)
+![Frontend URL Verification](./kubernetes/screenshots/frontend-url-terminal-proof.png.png)
 
 ---
 
@@ -74,7 +74,7 @@ The database is kept internal and accessed by the backend service through the Ku
 
 The backend successfully connected to the database:
 
-![Backend Database Connection](screenshots/backend-database-connected.png.png)
+![Backend Database Connection](./kubernetes/screenshots/backend-database-connected.png.png)
 
 ---
 
@@ -93,7 +93,7 @@ It handles:
 
 The deployment was verified by checking pods, deployments, and services:
 
-![Kubernetes Status](screenshots/kubernetes-pods-deployments-services.png.png)
+![Kubernetes Status](./kubernetes/screenshots/kubernetes-pods-deployments-services.png.png)
 
 ---
 
