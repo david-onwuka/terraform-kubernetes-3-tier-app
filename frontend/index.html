@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>3-Tier Kubernetes Platform</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            background: #f4f7fb;
+        }
+
+        .card {
+            background: white;
+            width: 450px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        .status {
+            color: green;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            background: #2563eb;
+            color: white;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+
+        #response {
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🚀 3-Tier Kubernetes App</h1>
+
+<p class="status">
+Frontend Container Running
+</p>
+
+<p>
+Terraform + Kubernetes + Docker + CI/CD
+</p>
+
+
+<button onclick="checkBackend()">
+Check Backend
+</button>
+
+
+<div id="response">
+</div>
+
+
+</div>
+
+
+<script>
+
+function checkBackend(){
+
+fetch("/api")
+.then(response => response.json())
+.then(data => {
+
+document.getElementById("response").innerHTML =
+"Backend Response: " + data.message;
+
+})
+
+.catch(error => {
+
+document.getElementById("response").innerHTML =
+"Backend not reachable yet";
+
+});
+
+}
+
+</script>
+
+
+</body>
+</html>
