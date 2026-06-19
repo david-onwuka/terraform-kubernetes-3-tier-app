@@ -41,7 +41,7 @@ The frontend communicates with the backend API to retrieve application data.
 
 Frontend application running:
 
-![Frontend Application](./screenshots/01.frontend-browser-ui.png.png)
+![Frontend Application](./screenshots/frontend-browser-ui.png.png.png)
 
 The frontend access configuration was also verified through the terminal:
 
