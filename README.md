@@ -93,7 +93,7 @@ It handles:
 
 The deployment was verified by checking pods, deployments, and services:
 
-![Kubernetes Status](./kubernetes/screenshots/kubernetes-pod-deployments-services.png.png)
+![Kubernetes Status](./kubernetes/screenshots/kubernetes-pod-deployment-services.png.png)
 
 ---
 
