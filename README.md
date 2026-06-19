@@ -45,7 +45,7 @@ Frontend application running:
 
 The frontend access configuration was also verified through the terminal:
 
-![Frontend URL Verification](frontend-url-terminal-proof.png.png)
+![Frontend URL Verification](frontend-url-terminal-proof.png.png.png)
 
 ---
 
